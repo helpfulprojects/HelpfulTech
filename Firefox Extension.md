@@ -41,7 +41,7 @@ This is the folder structure
 ![image](https://github.com/helpfulprojects/HelpfulTech/assets/143523315/258bcca8-2380-4d9c-b694-a60b8db3d300)
 
 To debug the code I personally open the url "about:debugging#/runtime/this-firefox". There I press the "Load Temporary Add-on..." button and find the manifest.json file of my extension. If you console log in your code or use local storage the usual inspector "ctrl+shift+i" will not be of use. Except for background and content scripts that run on the page itself. Each extension has its own inspector. In the same page "about:debugging#/runtime/this-firefox" once the extension is loaded find it and press the inspect button. A new window will show up just for the extension. When you make changes in the code it does not hot reload. In the inspector of the extension just press this button
-![image](https://github.com/helpfulprojects/HelpfulTech/assets/143523315/690acd42-54bb-4758-b621-0f997ef92e20)
+![image](https://github.com/helpfulprojects/HelpfulTech/assets/143523315/6ce85b54-b79f-4416-9a6d-e49b9025b1ab)
 
 Now once you are done you would want to use it as the other extensions. You cannot just use it. It has to be approved. You have to upload it and most of the time wait 2-3 minutes and you can use it as all other extensions. You have two options, to make it available publicly or for it to be private where you distribute it yourself. I usually pick the second option.
 
