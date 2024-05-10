@@ -1,1 +1,3 @@
-//TODO upload first version
+PDF.js uses a canvas to display the pdf and I wanted to add shapes on the pdf itself. Up until now I was ignoring the canvas element because I didn't have a use for it. Working with it is very differnt. It can get complex really quickly especialy if you want some kind of animation. For example I wanted to click with my mouse at one spot and then click at another spot and with those two points to draw a rectangle. But once I click the first time I wanted a preivew rectangle that follows the mouse position until I click a second time. For this I had to draw the rectangle outline on every mouse movement. But turns out each drawn rectangle stayed there and I had to clear the screen. But when I clear it I lose all the other drawings. As I said it's very different from working with other html elements. 
+
+//To be continued
