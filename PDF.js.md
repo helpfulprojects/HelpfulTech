@@ -1,1 +1,3 @@
-//TODO upload first version
+My first introduction to pdf js was https://www.youtube.com/watch?v=ydCSSgwZjzs Create a Custom PDF Viewer With JavaScript by  Traversy Media. I followed the guide to get a basic pdf viewer and then changed it so that it solves the problem in my project. You would be surprised how much set up there is for a regular pdf viewer even when a lot of the work is already done by pdf.js. I would recommend finding some example code as starting place and playing around with it, maybe even using it as the base for the project. If you download the latest stable version https://mozilla.github.io/pdf.js/getting_started/#download in it you will find the code for pdf.js but a viewer as well. 
+
+//To be continued
