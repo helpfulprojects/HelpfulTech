@@ -1,6 +1,0 @@
-To control the brithness usually https://wiki.archlinux.org/title/Backlight#xbacklight is enough. But it's for intel cpu and I think it doesn't work on external monitor.
-I used this guide instead https://wiki.archlinux.org/title/Backlight#External_monitors
-Check if i2c-dev kernel module is loaded with `lsmod | grep dev`. If not, create a file `/etc/modules-load.d/i2c-dev.conf`
-```
-
-```
